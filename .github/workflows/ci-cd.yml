@@ -32,4 +32,4 @@ jobs:
 
       - name: Deploy to Vercel (if applicable)
         if: success()
-        run: npx vercel --token=${{ secrets.VERCEL_TOKEN }} --prod
+        run: npx vercel --token=${{ secrets.COFANDBGUIDE }} --prod --confirm
